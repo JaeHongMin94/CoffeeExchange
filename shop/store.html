@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="민재홍">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store - 커피익스체인지</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/shop/store.css">
+    <script src="https://kit.fontawesome.com/fa7837bf25.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../js/prefixfree.min.js"></script>
+    <script type="text/javascript" src="../js/shop/store.js"></script>
+    <script type="text/javascript" src="../js/header.js"></script>
+</head>
+<body>
+    <!-- [S]header -->
+    <div id="header"></div>
+    <!-- [E]header -->
+    <!-- [S]TOP -->
+    <a href="#" id="toTop">TOP</a>
+    <!-- [E]TOP -->
+    <!-- [S]background -->
+    <div id="background">
+        <div id="backgroundImg"></div>
+        <div id="backgroundGradient"></div>
+        <div id="innerContent">
+            <div id="contentLogo">
+                <img src="../images/coffee-cia-180x180_c.png" alt="드립백 제품">
+            </div>
+            <h2>SHOPPING</h2>
+        </div>
+    </div>
+    <!-- [E]background -->
+    <!-- [S]storePage -->
+    <section id="storePage">
+        <div id="result">
+            <span></span> <!-- jQuery 상품갯수 검색해서 text 표시 -->
+        </div>
+        <div id="storeColumn">
+            <ul id="itemList">
+                <li>
+                    <div class="columnElement" name="CIA_001">
+                        <a href="./cia001.html">
+                            <div class="columnImg"></div>
+                            <div class="hoverImg"></div>
+                            <div class="columnText">
+                                <h3>CIA 001</h3>
+                                <p>CIA001 에스프레소 블렌딩은 묵직한 바디와 진한 다크 초콜렛 향이 매력적인 커피로, 강한 단맛과 부드러운 쓴맛이 조화롭게 어우러진 것이 특징입니다. 길게 이어지는 깊은 커피의 여운은 CIA001을 마시는 또 하나의 즐거움이 될 것입니다.</p>
+                                <span>₩14,000~₩30,000</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="columnElement" name="CIA_003">
+                        <a href="./cia002.html">
+                            <div class="columnImg"></div>
+                            <div class="hoverImg"></div>
+                            <div class="columnText">
+                                <h3>CIA 002</h3>
+                                <p>CIA002 에스프레소 블렌딩은 견과류의 고소한 아로마, 브라운슈가의 단맛이 어우러진 부드러운 베리류 산미의 조화가 특징인 블렌딩입니다. “호두파이”라는 별칭처럼 각각의 플레이버 특징들이 하나의 블랜딩 안에 잘 녹아 들어 커피향미의 밸런스가 인상적입니다.</p>
+                                <span>₩14,000~₩30,000</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="columnElement" name="CIA_003">
+                        <a href="./cia003.html">
+                            <div class="columnImg"></div>
+                            <div class="hoverImg"></div>
+                            <div class="columnText">
+                                <h3>CIA 003</h3>
+                                <p>CIA003 에스프레소 블렌딩은 밝고 화사한 꽃향의 아로마와 상큼한 과일의 산미가 특징인 블렌딩입니다. 크리미한 미디엄 바디와 마시고 난 뒤 입안에 감도는 은은한 감귤향의 여운은 상쾌한 아침의 햇살 그 자체일 것입니다.</p>
+                                <span>₩14,000~₩30,000</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="columnElement" name="CIA_ECO-S">
+                        <a href="./cia-eco-s.html">
+                            <div class="columnImg"></div>
+                            <div class="hoverImg"></div>
+                            <div class="columnText">
+                                <h3>CIA ECO-S<br><small>(기업용 별도문의)</small></h3>
+                                <p>진한 커피향, 부드러운 목넘김, 고급스러운 단맛을 느낄 수 있는 커피 블렌딩으로 편안한 관리에 중점을 둔 안정적인 플레이버가 특징인 커피입니다. 고객의 요구에 따라 풍미와 농도의 조절이 용이하며, 특정 고객층보다는 누구에게나 만족스럽게 느껴질 수 있는 블렌딩 특징을 가집니다.</p>
+                                <span>₩20,000~₩35,000</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="columnElement" name="CIA002 DRIPBAG">
+                        <a href="#">
+                            <div class="columnImg"></div>
+                            <div class="hoverImg"></div>
+                            <div class="columnText">
+                                <h3>CIA002 DRIPBAG</h3>
+                                <p>CIA002 원두커피를 곱게 갈아 드립백으로 담은 제품입니다.
+                                    언제, 어디서든 간편하면서도 맛있게 즐기실 수 있습니다.
+                                    (8개입)</p>
+                                <span>₩11,000</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="columnElement" name="CX_MUG">
+                        <a href="#">
+                            <div class="columnImg"></div>
+                            <div class="hoverImg"></div>
+                            <div class="columnText">
+                                <h3>CX MUG</h3>
+                                <p>커피익스체인지 로고가 있는 머그컵입니다.</p>
+                                <span>₩11,000</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="columnElement" name="GIFT_SET_BLACK_SERIES">
+                        <a href="#">
+                            <div class="columnImg"></div>
+                            <div class="hoverImg"></div>
+                            <div class="columnText">
+                                <h3>GIFT SET BLACK SERIES</h3>
+                                <p>커피익스체인지가 마련한 다양한 조합의 선물세트입니다.</p>
+                                <span>₩22,000~₩41,000</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="columnElement" name="GIFT_SET_WHITE(SAMPLER)">
+                        <a href="#">
+                            <div class="columnImg"></div>
+                            <div class="hoverImg"></div>
+                            <div class="columnText">
+                                <h3>GIFT SET WHITE(SAMPLER)</h3>
+                                <p>CIA SERIES 커피를 한 번에 즐기실 수 있는 제품입니다.
+                                    고급스러운 포장에 CIA시리즈가 각각 200g씩 담겨있어 선물용으로 좋습니다.</p>
+                                <span>₩42,000</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="columnElement" name="Holiday_Gift_Set">
+                        <a href="#">
+                            <div class="columnImg"></div>
+                            <div class="hoverImg"></div>
+                            <div class="columnText">
+                                <h3>Holiday Gift Set</h3>
+                                <p>
+                                    특별한 날, 특별한 선물<br><br>
+                                    CIA002 500g + CIA002Dripbag
+                                </p>
+                                <span>₩41,000</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- [E]storePage -->
+    <!-- [S]footer -->
+    <div id="footer"></div>
+    <!-- [E]footer -->
+</body>
+</html>

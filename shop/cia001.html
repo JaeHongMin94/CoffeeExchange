@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="민재홍">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIA001 - 커피익스체인지</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/shop/goods.css">
+    <script src="https://kit.fontawesome.com/fa7837bf25.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../js/prefixfree.min.js"></script>
+    <script type="text/javascript" src="../js/shop/ciabeans.js"></script>
+</head>
+<body>
+    <!-- [S]header -->
+    <div id="header"></div>
+    <!-- [E]header -->
+    <!-- [S]TOP -->
+    <a href="#" id="toTop">TOP</a>
+    <!-- [E]TOP -->
+    <!-- [S]background -->
+    <div id="background">
+        <div id="backgroundImg"></div>
+        <div id="backgroundGradient"></div>
+        <div id="innerTitle">
+            <h2>STORE</h2>
+            <span></span>
+            <h3>CIA 001</h3>
+        </div>
+    </div>
+    <!-- [E]background -->
+    <!-- [S]productWrap -->
+    <div id="productWrap">
+        <section id="productSection">
+            <div id="productImg">
+                <img src="../images/LU015667-600x600.jpg" id="leftImg" alt="CIA001">
+                <img src="../images/LU015669-600x600.jpg" id="rightImg" alt="CIA001">
+            </div>
+            <!-- [S]productInfo -->
+            <div id="productInfo">
+                <h3>CIA 001</h3>
+                <p><span>&#8361;14,000</span>~<span>&#8361;30,000</span></p>
+                <div id="thumbnailImg">
+                    <img src="../images/LU015667-600x600.jpg" alt="CIA001">
+                    <img src="../images/LU015669-600x600.jpg" alt="CIA001">
+                </div>
+                <p>CIA001 에스프레소 블렌딩은 묵직한 바디와 진한 다크 초콜렛 향이 매력적인 커피로, 강한 단맛과 부드러운 쓴맛이 조화롭게 어우러진 것이 특징입니다. 길게 이어지는 깊은 커피의 여운은 CIA001을 마시는 또 하나의 즐거움이 될 것입니다.</p>
+                <!-- [S]cartForm -->
+                <form class="cartForm" name="cartForm" >
+                    <input id="productName" name="productName" value="CIA 001">	
+                    <table cellspacing="0">
+                        <tr>
+                            <td class="label"><label for="weight">무게</label></td>
+                            <td>
+                                <select class="optionWeight">
+                                    <option value="" selected="selected">옵션을 선택하세요</option>
+                                    <option value="200g" class="attached enabled">200g</option>
+                                    <option value="500g" class="attached enabled">500g</option>
+                                </select>
+                                <a class="reset">클리어</a>
+                            </td>
+                        </tr>
+                    </table>
+                    <div id="toggleWrpa">
+                        <div class="priceWrap">
+                            <span class="price"></span>
+                        </div>
+                        <div class="quantityAndCart">
+                            <div class="quantity">
+                                <input type="number"class="quantityText" name="quantity" step="1" min="1" max="" value="1" title="수량" size="4">
+                            </div>
+                            <button type="submit" class="cartButton" onclick="basketPut();">장바구니</button>
+                        </div>
+                    </div>
+                </form>
+                <!-- [E]cartForm -->
+            </div>
+            <!-- [E]productInfo -->
+        </section>
+    </div>
+    <!-- [E]productWrap -->
+    <!-- [S]backStore -->
+    <div id="backStore">
+        <a href="./store.html">쇼핑몰로 돌아가기</a>
+    </div>
+    <!-- [E]backStore -->
+    <!-- [S]productInformationWrap -->
+    <section id="productInformationWrap">
+        <div id="columnElement">
+            <p><em>Espresso 추출 셋팅 (2shot 기준)</em></p> 
+            <div class="statisticBox">
+                <div class="statisticBoxIcon">
+                    <img src="../images/material.png" alt="재료">
+                </div>
+                <div class="statisticBoxLine"></div>
+                <div class="statisticBoxDetails">
+                    <h4>18~20g</h4>
+                    <p>분쇄원두</p>
+                </div>
+            </div>
+            <div class="statisticBox">
+                <div class="statisticBoxIcon">
+                    <img src="../images/machine.png" alt="머신">
+                </div>
+                <div class="statisticBoxLine"></div>
+                <div class="statisticBoxDetails">
+                    <h4>25~28sec</h4>
+                    <p>추출시간</p>
+                </div>
+            </div>
+            <div class="statisticBox">
+                <div class="statisticBoxIcon">
+                    <img src="../images/cof.png" alt="cof">
+                </div>
+                <div class="statisticBoxLine"></div>
+                <div class="statisticBoxDetails">
+                    <h4>60ml</h4>
+                    <p>추출량</p>
+                </div>
+            </div>               
+        </div>
+        <div id="innerContentWrap">
+            <div class="innerContent">
+                <div class="innerContentBox">
+                    <h4>Green bean Grade</h4>
+                    <p>Specialty 57%, Premium 43%</p>
+                </div>
+                <div class="innerContentBox">
+                    <h4>Origins</h4>
+                    <p>Colombia / Brazil / Ethiopia</p>
+                </div>
+                <div class="innerContentBox">
+                    <h4>Roasting Point</h4>
+                    <p>Moderately Dark</p>
+                </div>
+                <div class="innerContentBox">
+                    <h4>Cup Profile</h4>
+                    <p>Dark Chocolate / Peanut Butter / Caramel</p>
+                </div>
+            </div>
+            <div class="innerContent">
+                <img src="../images/cia001Graph.JPG" alt="CIA001 chart">
+            </div>
+        </div>
+    </section>
+    <!-- [E]productInformationWrap -->
+    <!-- [S]footer -->
+    <div id="footer"></div>
+    <!-- [E]footer -->
+</body>
+</html>

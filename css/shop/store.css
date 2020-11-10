@@ -1,0 +1,237 @@
+/* ------------- PC ------------ */
+@media screen and (min-width:1246px){
+    /* ---------- Top(화면 맨 위로) ---------- */
+    #toTop{display:inline-block; width:50px; height:50px; border-radius:2px; position:fixed; right:-50px; top:85%; z-index:999; background-color:#404040; font-size:9px; font-weight:bold; color:white; text-align:center; line-height:8px; padding:28px 0 21px; box-sizing:border-box;}
+    #toTop:before { content:""; position:absolute; top: 14px; left:20px; width:5px; height:5px; border:3px solid white; border-left:0px; border-bottom:0px; transform: rotate(-45deg); } 
+
+    /* ---------- background ---------- */
+    #background{width:100%; height:1020px; position:relative;}
+    #background #backgroundImg{width:100%; height:1020px; background:url("../../images/LUCI9523.jpg") fixed no-repeat; background-size:cover;}
+    #background #backgroundGradient{width:100%; height:1020px; background:linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%); position:absolute; left:0; top:0;}
+    #innerContent{width:100%; height:300px; position:absolute; left:0; top:400px; text-align:center;}
+    #innerContent h2{font-size:100px; font-weight:700; letter-spacing:0.1em; color:white;}
+    #information{width:100%; height:1100px; background-color:#d5d5d5;}
+    
+    /* ---------- storePage ----------*/
+    #storePage{width:100%; height:2335px; padding:50px 0;}
+    #storePage #result { width:90%; height:50px; margin:0 auto; }
+    #result span { font-size:11px; color:#484848;}
+    #orderBy{width:100px; height:30px; color:#484848; float:right;}
+    #storePage #storeColumn{width:90%; margin:150px auto 0; opacity:0;}
+    #storeColumn #itemList{ width:100%; }
+    .columnElement{width:30%; height:700px; background-color:white; float:left; margin-right:5%; margin-bottom:50px; cursor:pointer;}
+    #itemList li:nth-child(3) .columnElement, #itemList li:nth-child(6) .columnElement, #itemList li:nth-child(9) .columnElement {margin-right:0px;}
+    #storeColumn .columnText{width:100%; height:auto; padding:0 25px; box-sizing:border-box;}
+    .columnText h3{font-size:16px; padding-top:25px; word-break: keep-all; font-weight:bold; margin-bottom:10px; height:40px;}
+    .columnText p{margin-bottom:20px; font-size:12px; color:#999999; letter-spacing:-0.025em; word-break:keep-all;}
+    .columnText span{font-size:18px; font-weight:bold;}
+    h3 small{font-size:10px; color:#999999;}
+
+    /* --- storeImg --- */
+    #itemList li:nth-child(1) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015667-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(1) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015669-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(2) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015664-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(2) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015665-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(3) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015672-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(3) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015673-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(4) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015652-1-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(4) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015655-1-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(5) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/CIA002-dripback-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(5) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/CIA002-dripback-1-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(6) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/mug-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(6) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/navyMugCup.png") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(7) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010670-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(7) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010674-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(8) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/SAMPLER600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(8) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/gift-set-2-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(9) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010668-600x600.jpg") center center no-repeat; background-size:cover; }
+    #itemList li:nth-child(9) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010668-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+
+}
+
+@media screen and (min-width:920px) and (max-width:1245px){
+    /* ---------- Top(화면 맨 위로) ---------- */
+    #toTop{display:inline-block; width:50px; height:50px; border-radius:2px; position:fixed; right:-50px; top:85%; z-index:999; background-color:#404040; font-size:9px; font-weight:bold; color:white; text-align:center; line-height:8px; padding:28px 0 21px; box-sizing:border-box;}
+    #toTop:before { content:""; position:absolute; top: 14px; left:20px; width:5px; height:5px; border:3px solid white; border-left:0px; border-bottom:0px; transform: rotate(-45deg); } 
+
+    /* ---------- background ---------- */
+    #background{width:100%; height:1020px; position:relative;}
+    #background #backgroundImg{width:100%; height:1020px; background:url("../../images/LUCI9523.jpg") fixed no-repeat; background-size:cover;}
+    #background #backgroundGradient{width:100%; height:1020px; background:linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%); position:absolute; left:0; top:0;}
+    #innerContent{width:100%; height:300px; position:absolute; left:0; top:400px; text-align:center;}
+    #innerContent h2{font-size:100px; font-weight:700; letter-spacing:0.1em; color:white;}
+    #information{width:100%; height:1100px; background-color:#d5d5d5;}
+    
+    /* ---------- storePage ----------*/
+    #storePage{width:100%; overflow:hidden; padding-top:50px;}
+    #storePage #result { width:90%; height:50px; margin:0 auto; }
+    #result span { font-size:11px; color:#484848;}
+    #orderBy{width:100px; height:30px; color:#484848; float:right;}
+    #storePage #storeColumn{width:80%; height:auto; margin:0 auto;}
+    .columnElement{width:47.5%; height:650px; background-color:white; float:left; margin-bottom:50px; margin-right:5%; cursor:pointer;}
+    #itemList li:nth-child(2) .columnElement,#itemList li:nth-child(4) .columnElement,#itemList li:nth-child(6) .columnElement,#itemList li:nth-child(8) .columnElement {margin-right:0;}
+    #storeColumn .columnText{width:100%; height:auto; padding:0 25px; box-sizing:border-box;}
+    .columnText h3{font-size:14px; padding-top:25px; word-break: keep-all; font-weight:bold; margin-bottom:10px; height:40px;}
+    .columnText p{margin-bottom:20px; font-size:10px; color:#999999; letter-spacing:-0.025em; word-break:keep-all;}
+    .columnText span{font-size:16px; font-weight:bold;}
+    h3 small{font-size:8px; color:#999999;}
+
+    /* --- storeImg --- */
+    #itemList li:nth-child(1) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015667-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(1) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015669-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(2) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015664-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(2) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015665-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(3) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015672-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(3) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015673-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(4) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015652-1-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(4) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015655-1-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(5) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/CIA002-dripback-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(5) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/CIA002-dripback-1-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(6) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/mug-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(6) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/navyMugCup.png") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(7) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010670-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(7) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010674-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(8) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/SAMPLER600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(8) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/gift-set-2-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(9) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010668-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(9) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010668-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+
+}
+
+/* ------------- 모바일 ------------ */
+@media screen and (min-width:631px) and (max-width:919px){    
+    /* ---------- Top(화면 맨 위로) ---------- */
+    #toTop{display:inline-block; width:50px; height:50px; border-radius:2px; position:fixed; right:-50px; top:85%; z-index:999; background-color:#404040; font-size:9px; font-weight:bold; color:white; text-align:center; line-height:8px; padding:28px 0 21px; box-sizing:border-box;}
+    #toTop:before { content:""; position:absolute; top: 14px; left:20px; width:5px; height:5px; border:3px solid white; border-left:0px; border-bottom:0px; transform: rotate(-45deg); } 
+
+    /* ---------- background ---------- */
+    #background{width:100%; height:400px; position:relative;}
+    #background #backgroundImg{width:100%; height:400px; background:url("../../images/LUCI9523.jpg") fixed no-repeat; background-size:cover;}
+    #background #backgroundGradient{width:100%; height:400px; background:linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%); position:absolute; left:0; top:0;}
+    #innerContent{width:100%; height:300px; position:absolute; left:0; top:40px; text-align:center;}
+    #innerContent h2{font-size:46px; font-weight:700; letter-spacing:0.1em; color:white;}
+    #information{width:100%; height:1100px; background-color:#d5d5d5;}
+    
+    /* ---------- storePage ----------*/
+    #storePage{width:100%; overflow:hidden; padding-top:50px;}
+    #storePage #result { width:90%; height:50px; margin:0 auto; }
+    #result span { font-size:11px; color:#484848;}
+    #orderBy{width:100px; height:30px; color:#484848; float:right;}
+    #storePage #storeColumn{width:100%; height:auto; margin:0 auto;}
+    .columnElement{width:80%; height:830px; background-color:white; margin:0 auto; margin-bottom:50px; cursor:pointer;}
+    #storeColumn .columnText{width:100%; height:auto; padding:0 25px; box-sizing:border-box;}
+    .columnText h3{font-size:14px; padding-top:25px; word-break: keep-all; font-weight:bold; margin-bottom:10px; height:40px;}
+    .columnText p{margin-bottom:20px; font-size:10px; color:#999999; letter-spacing:-0.025em; word-break:keep-all;}
+    .columnText span{font-size:16px; font-weight:bold;}
+    h3 small{font-size:8px; color:#999999;}
+
+    /* --- storeImg --- */
+    #itemList li:nth-child(1) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015667-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(1) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015669-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(2) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015664-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(2) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015665-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(3) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015672-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(3) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015673-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(4) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015652-1-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(4) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015655-1-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(5) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/CIA002-dripback-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(5) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/CIA002-dripback-1-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(6) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/mug-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(6) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/navyMugCup.png") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(7) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010670-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(7) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010674-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(8) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/SAMPLER600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(8) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/gift-set-2-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(9) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010668-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(9) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010668-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+}
+
+@media screen and (min-width:451px) and (max-width:630px){
+    /* ---------- background ---------- */
+    #toTop { display:none; }
+    #background{width:100%; height:400px; position:relative;}
+    #background #backgroundImg{width:100%; height:400px; background:url("../../images/LUCI9523.jpg") fixed no-repeat; background-size:cover;}
+    #background #backgroundGradient{width:100%; height:400px; background:linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%); position:absolute; left:0; top:0;}
+    #innerContent{width:100%; height:300px; position:absolute; left:0; top:40px; text-align:center;}
+    #innerContent h2{font-size:46px; font-weight:700; letter-spacing:0.1em; color:white;}
+    #information{width:100%; height:1100px; background-color:#d5d5d5;}
+    
+    /* ---------- storePage ----------*/
+    #storePage{width:100%; overflow:hidden; padding-top:50px;}
+    #storePage #result { width:90%; height:50px; margin:0 auto; }
+    #result span { font-size:11px; color:#484848;}
+    #orderBy{width:100px; height:30px; color:#484848; float:right;}
+    #storePage #storeColumn{width:100%; height:auto; margin:0 auto;}
+    .columnElement{width:80%; height:630px; background-color:white; margin:0 auto; margin-bottom:50px; cursor:pointer;}
+    #storeColumn .columnText{width:100%; height:auto; padding:0 25px; box-sizing:border-box;}
+    .columnText h3{font-size:14px; padding-top:25px; word-break: keep-all; font-weight:bold; margin-bottom:10px; height:40px;}
+    .columnText p{margin-bottom:20px; font-size:10px; color:#999999; letter-spacing:-0.025em; word-break:keep-all;}
+    .columnText span{font-size:16px; font-weight:bold;}
+    h3 small{font-size:8px; color:#999999;}
+    .columnElement a .columnImg { width:100%; height:auto; }
+
+    /* --- storeImg --- */
+    #itemList li:nth-child(1) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015667-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(1) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015669-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(2) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015664-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(2) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015665-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(3) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015672-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(3) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015673-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(4) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015652-1-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(4) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015655-1-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(5) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/CIA002-dripback-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(5) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/CIA002-dripback-1-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(6) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/mug-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(6) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/navyMugCup.png") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(7) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010670-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(7) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010674-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(8) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/SAMPLER600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(8) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/gift-set-2-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(9) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010668-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(9) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010668-600x600.jpg") center center no-repeat; background-size:cover; display:none;} 
+}
+
+@media screen and (max-width:450px){
+    /* ---------- background ---------- */
+    #toTop { display:none; }
+    #background{width:100%; height:400px; position:relative;}
+    #background #backgroundImg{width:100%; height:400px; background:url("../../images/LUCI9523.jpg") fixed no-repeat; background-size:cover;}
+    #background #backgroundGradient{width:100%; height:400px; background:linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%); position:absolute; left:0; top:0;}
+    #innerContent{width:100%; height:300px; position:absolute; left:0; top:40px; text-align:center;}
+    #innerContent h2{font-size:46px; font-weight:700; letter-spacing:0.1em; color:white;}
+    #information{width:100%; height:1100px; background-color:#d5d5d5;}
+    
+    /* ---------- storePage ----------*/
+    #storePage{width:100%; overflow:hidden; padding-top:50px;}
+    #storePage #result { width:90%; height:50px; margin:0 auto; }
+    #result span { font-size:11px; color:#484848;}
+    #orderBy{width:100px; height:30px; color:#484848; float:right;}
+    #storePage #storeColumn{width:100%; height:auto; margin:0 auto;}
+    .columnElement{width:80%; height:540px; background-color:white; margin:0 auto; margin-bottom:50px; cursor:pointer;}
+    #storeColumn .columnText{width:100%; height:auto; padding:0 25px; box-sizing:border-box;}
+    .columnText h3{font-size:14px; padding-top:25px; word-break: keep-all; font-weight:bold; margin-bottom:10px; height:40px;}
+    .columnText p{margin-bottom:20px; font-size:10px; color:#999999; letter-spacing:-0.025em; word-break:keep-all;}
+    .columnText span{font-size:16px; font-weight:bold;}
+    h3 small{font-size:8px; color:#999999;}
+    .columnElement a .columnImg { width:100%; height:auto; }
+
+    /* --- storeImg --- */
+    #itemList li:nth-child(1) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015667-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(1) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015669-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(2) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015664-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(2) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015665-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(3) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015672-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(3) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015673-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(4) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015652-1-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(4) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU015655-1-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(5) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/CIA002-dripback-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(5) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/CIA002-dripback-1-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(6) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/mug-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(6) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/navyMugCup.png") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(7) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010670-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(7) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010674-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(8) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/SAMPLER600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(8) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/gift-set-2-600x600.jpg") center center no-repeat; background-size:cover; display:none;}
+    #itemList li:nth-child(9) .columnImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010668-600x600.jpg") center center no-repeat; background-size:cover;}
+    #itemList li:nth-child(9) .hoverImg{width:100%; height:0; padding-top:calc(600/600*100%); background:url("../../images/LU010668-600x600.jpg") center center no-repeat; background-size:cover; display:none;}  
+}

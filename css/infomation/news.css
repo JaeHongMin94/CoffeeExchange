@@ -1,0 +1,106 @@
+/* ------------- PC ------------ */
+@media screen and (min-width:1201px){
+    /* ---------- Top(화면 맨 위로) ---------- */
+    #toTop{display:inline-block; width:50px; height:50px; border-radius:2px; position:fixed; right:-50px; top:85%; z-index:999; background-color:#404040; font-size:9px; font-weight:bold; color:white; text-align:center; line-height:8px; padding:28px 0 21px; box-sizing:border-box;}
+    #toTop:before { content:""; position:absolute; top: 14px; left:20px; width:5px; height:5px; border:3px solid white; border-left:0px; border-bottom:0px; transform: rotate(-45deg); } 
+
+    /* ---------- background ---------- */
+    #background{width:100%; height:1020px; position:relative;}
+    #background #backgroundImg{width:100%; height:1020px; background:url("../../images/coffee-bg-1.jpg") fixed no-repeat; background-size:cover;}
+    #background #backgroundGradient{width:100%; height:1020px; background:linear-gradient(to bottom,  rgba(130,75,0,0.65) 0%,rgba(0,0,0,0.55) 100%); position:absolute; left:0; top:0;}
+    #innerContent{width:100%; height:300px; position:absolute; left:0; top:400px; text-align:center;}
+    #innerContent h2{font-size:100px; font-weight:700; letter-spacing:0.1em; color:white;}
+    #information{width:100%; height:1100px; background-color:#d5d5d5;}
+    
+    /* ---------- newsPage ----------*/
+    #newsPage{width:100%; overflow:hidden; background-color:#f5f5f5; padding:50px 0;}
+    #newsPage #newsColumn{width:90%; height:auto; margin:0 auto;}
+    .columnElement{width:30%; height:auto; background-color:white; float:left; margin-right:5%; margin-bottom:35px;}
+    .columnElement:nth-child(3), .columnElement:nth-child(6){margin-right:0;}
+    #newsColumn .columnText{width:100%; height:auto; padding:0 25px; box-sizing:border-box;}
+    .columnText h3{font-size:25px; padding-top:25px; word-break: keep-all; font-weight:normal; margin-bottom:10px;}
+    .columnText span{display:inline-block; font-size:11px; margin:0 0 15px; padding:10px 0 10px;}
+    .columnText .textBox{width:90%; height:auto; padding-bottom:15px; margin-bottom:15px; border-bottom:1px solid #f4f4f4;}
+    .columnText p{font-size:13px;}
+    .columnText span:last-child{font-size:10px;}
+
+    /* --- newsImg --- */
+    .columnElement:nth-child(2) .columnImg{width:100%; height:220px; background:url("../../images/kanteen_daechi.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(3) .columnImg{width:100%; height:220px; background:url("../../images/kanteen_samsung.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(4) .columnImg{width:100%; height:220px; background:url("../../images/kanteen_huigyeong.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(5) .columnImg{width:100%; height:220px; background:url("../../images/kanteen.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(6) .columnImg{width:100%; height:220px; background:url("../../images/kanteen_centeral.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(7) .columnImg{width:100%; height:220px; background:url("../../images/2.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(8) .columnImg{width:100%; height:220px; background:url("../../images/Untitled-2.jpg") no-repeat; background-size:cover;}
+
+}
+
+@media screen and (min-width:860px) and (max-width:1200px){
+    /* ---------- Top(화면 맨 위로) ---------- */
+    #toTop{display:inline-block; width:50px; height:50px; border-radius:2px; position:fixed; right:-50px; top:85%; z-index:999; background-color:#404040; font-size:9px; font-weight:bold; color:white; text-align:center; line-height:8px; padding:28px 0 21px; box-sizing:border-box;}
+    #toTop:before { content:""; position:absolute; top: 14px; left:20px; width:5px; height:5px; border:3px solid white; border-left:0px; border-bottom:0px; transform: rotate(-45deg); } 
+    
+    /* ---------- background ---------- */
+    #background{width:100%; height:1020px; position:relative;}
+    #background #backgroundImg{width:100%; height:1020px; background:url("../../images/coffee-bg-1.jpg") fixed no-repeat; background-size:cover;}
+    #background #backgroundGradient{width:100%; height:1020px; background:linear-gradient(to bottom,  rgba(130,75,0,0.65) 0%,rgba(0,0,0,0.55) 100%); position:absolute; left:0; top:0;}
+    #innerContent{width:100%; height:300px; position:absolute; left:0; top:400px; text-align:center;}
+    #innerContent h2{font-size:100px; font-weight:700; letter-spacing:0.1em; color:white;}
+    #information{width:100%; height:1100px; background-color:#d5d5d5;}
+    
+    /* ---------- newsPage ----------*/
+    #newsPage{width:100%; overflow:hidden; background-color:#f5f5f5; padding:50px 0;}
+    #newsPage #newsColumn{width:90%; height:auto; margin:0 auto;}
+    .columnElement{width:47.5%; height:auto; background-color:white; float:left; margin-right:5%; margin-bottom:35px;}
+    .columnElement:nth-child(2), .columnElement:nth-child(4), .columnElement:nth-child(6), .columnElement:nth-child(8){margin-right:0;}
+    #newsColumn .columnText{width:100%; height:auto; padding:0 25px; box-sizing:border-box;}
+    .columnText h3{font-size:25px; padding-top:25px; word-break: keep-all; font-weight:normal; margin-bottom:10px;}
+    .columnText span{display:inline-block; font-size:11px; margin:0 0 15px; padding:10px 0 10px;}
+    .columnText .textBox{width:90%; height:auto; padding-bottom:15px; margin-bottom:15px; border-bottom:1px solid #f4f4f4;}
+    .columnText p{font-size:13px;}
+    .columnText span:last-child{font-size:10px;}
+
+    /* --- newsImg --- */
+    .columnElement:nth-child(2) .columnImg{width:100%; height:220px; background:url("../../images/kanteen_daechi.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(3) .columnImg{width:100%; height:220px; background:url("../../images/kanteen_samsung.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(4) .columnImg{width:100%; height:220px; background:url("../../images/kanteen_huigyeong.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(5) .columnImg{width:100%; height:220px; background:url("../../images/kanteen.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(6) .columnImg{width:100%; height:220px; background:url("../../images/kanteen_centeral.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(7) .columnImg{width:100%; height:220px; background:url("../../images/2.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(8) .columnImg{width:100%; height:220px; background:url("../../images/Untitled-2.jpg") no-repeat; background-size:cover;}
+
+}
+
+/* ------------- 모바일 ------------ */
+@media screen and (max-width:859px){
+    /* ---------- background ---------- */
+    #toTop { display:none; }
+    #background{width:100%; height:400px; position:relative;}
+    #background #backgroundImg{width:100%; height:400px; background:url("../../images/coffee-bg-1.jpg") fixed no-repeat; background-size:cover; background-position:-340px;}
+    #background #backgroundGradient{width:100%; height:400px; background:linear-gradient(to bottom,  rgba(130,75,0,0.65) 0%,rgba(0,0,0,0.55) 100%); position:absolute; left:0; top:0;}
+    #innerContent{width:100%; height:300px; position:absolute; left:0; top:50px; text-align:center;}
+    #innerContent h2{font-size:46px; font-weight:700; letter-spacing:0.1em; color:white;}
+    #information{width:100%; height:1100px; background-color:#d5d5d5;}
+    
+    /* ---------- newsPage ----------*/
+    #newsPage{width:100%; height:auto; background-color:#f5f5f5; padding-top:50px; padding-bottom:50px;}
+    #newsPage #newsColumn{width:90%; height:auto; margin:0 auto; position:relative;}
+    .columnElement{width:100%; height:auto; margin-bottom:35px; background-color:white;}
+    .columnElement:nth-child(3), .columnElement:nth-child(6){margin-right:0px;}
+    #newsColumn .columnText{width:100%; height:auto; padding:0 25px; box-sizing:border-box;}
+    .columnText h3{font-size:25px; padding-top:25px; word-break: keep-all; font-weight:normal; margin-bottom:10px;}
+    .columnText span{display:inline-block; font-size:11px; margin:0 0 15px; padding:10px 0 10px; color:#9a9a9a;}
+    .columnText .textBox{width:100%; height:auto; padding-bottom:15px; margin-bottom:15px; border-bottom:1px solid #f4f4f4;}
+    .columnText p{font-size:13px;}
+    .columnText span:last-child{font-size:10px;}
+
+    /* --- newsImg --- */
+    .columnElement:nth-child(2) .columnImg{width:100%; height:525px; background:url("../../images/kanteen_daechi.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(3) .columnImg{width:100%; height:466px; background:url("../../images/kanteen_samsung.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(4) .columnImg{width:100%; height:525px; background:url("../../images/kanteen_huigyeong.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(5) .columnImg{width:100%; height:466px; background:url("../../images/kanteen.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(6) .columnImg{width:100%; height:466px; background:url("../../images/kanteen_centeral.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(7) .columnImg{width:100%; height:466px; background:url("../../images/2.jpg") no-repeat; background-size:cover;}
+    .columnElement:nth-child(8) .columnImg{width:100%; height:466px; background:url("../../images/Untitled-2.jpg") no-repeat; background-size:cover;}
+       
+}

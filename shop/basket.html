@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="민재홍">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>장바구니 - 커피익스체인지</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/shop/basket.css">
+    <script src="https://kit.fontawesome.com/fa7837bf25.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../js/prefixfree.min.js"></script>
+    <script type="text/javascript" src="../js/shop/basket.js"></script>
+</head>
+<body>
+    <!-- [S]header -->
+    <div id="header"></div>
+    <!-- [E]header -->
+    <!-- [S]TOP -->
+    <a href="#" id="toTop">TOP</a>
+    <!-- [E]TOP -->
+    <!-- [S]basketPage -->
+    <section id="basketPage">
+        <!-- [S]basketEmpty -->
+        <article id="txtBasketEmpty">
+            <div id="words">
+                <p>고객님의 장바구니가 현재 비어있습니다.</p>
+                <div>
+                    <a href="./store.html">상점으로 돌아가기</a>
+                </div>
+            </div>
+        </article>
+        <!-- [E]basketEmpty -->
+        <!-- [S]basket -->
+        <div id="basket">
+            <form id="cartForm" onsubmit="return false;">
+                <table class="productBasket">
+                    <tr>
+                        <th class="productRemove">&nbsp;</th>
+                        <th class="productThumbnail">&nbsp;</th>
+                        <th class="productName">상품</th>
+                        <th class="productPrice">가격</th>
+                        <th class="productQuantity">수량</th>
+                        <th class="productSubtotal">총계</th>
+                    </tr>
+                    <tr>
+                        <td class="productRemove"><div id="listCancel">X</div></td>
+                        <td class="productThumbnail"><a href="./cia001.html"><img></a></td>
+                        <td class="productName"><a href="./cia001.html">CIA 001 - 200g</a></td>
+                        <td class="productPrice"><span>&#8361;</span>14,000</td>
+                        <td class="productQuantity"><input type="number" step="1" min="1" max="" value="1"></td>
+                        <td class="productSubtotal"><span>&#8361;</span><span class="productSubtotal">14,000</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" class="actions">
+                            <div class="coupon">
+                                <input type="text" name="coupon_code" class="inputText" id="couponCode" value="" placeholder="쿠폰 코드" />
+                                <input type="submit" class="button" id="couponButton" name="apply_coupon" value="쿠폰 적용" onclick="priceRenew();">
+                            </div>
+                            <button type="submit" class="button" id="renewalButton" name="update_cart" value="장바구니 갱신" onclick="quantityRenew();">장바구니 갱신</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <!-- [E]basket -->
+        <!-- [S]cartWrap -->
+        <div class="cartWrap">
+            <div class="cartTotals"> 
+            <h2>장바구니 합계</h2>
+            <table class="shopTable">
+                <tbody>
+                    <tr class="cartSubTotal">
+                    <th>소계</th>
+                        <td>
+                            <span>₩</span><span class="priceAmount">14,000</span>
+                        </td>
+                    </tr>
+                    <tr class="shipping">
+                        <th>1개 배송 중</th>
+                        <td>
+                            배송비: <span>₩</span><span class="priceAmount">3,000</span>
+                        </td>
+                    </tr>
+                    <tr class="orderTotal">
+                        <th>총계</th>
+                        <td>
+                            <strong><span>₩</span><span class="priceAmount">17,000</span></strong>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>            
+            <div class="proceedCheckout">                    
+                <a href="#" class="checkOutButton" onclick="
+                payment();">결제 진행하기</a>
+            </div>
+        </div>
+        <!-- [E]cartWrap -->
+    </section>
+    <!-- [E]basketPage -->
+    <!-- [S]footer -->
+    <div id="footer"></div>
+    <!-- [E]footer -->
+</body>
+</html>

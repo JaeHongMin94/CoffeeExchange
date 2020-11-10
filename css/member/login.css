@@ -1,0 +1,103 @@
+/* ---------- PC ---------- */
+@media screen and (min-width:1201px){
+    
+    /* ---------- Top(화면 맨 위로) ---------- */
+    #toTop{display:inline-block; width:50px; height:50px; border-radius:2px; position:fixed; right:-50px; top:85%; z-index:999; background-color:#404040; font-size:9px; font-weight:bold; color:white; text-align:center; line-height:8px; padding:28px 0 21px; box-sizing:border-box;}
+    #toTop:before { content:""; position:absolute; top: 14px; left:20px; width:5px; height:5px; border:3px solid white; border-left:0px; border-bottom:0px; transform: rotate(-45deg); } 
+    
+    /* ---------- section ---------- */
+    #memberLogin{padding-top:250px; height:500px;}
+    #login_form{width:600px; margin:0 auto;}
+    #login_form h2{margin-left:50px;}
+    .memberInput{width:500px; height:80px; border:1px solid #ddd; margin:20px auto; padding:10px 20px; box-sizing:border-box; border-radius:7px;}
+    .memberInput label{display:block; font-weight:bold;}
+    .memberInput input{width:460px; height:25px; margin-top:10px; border:none; font-size:16px; line-height:25px;}
+    #saveId{margin-left:50px; display:none;}
+    label.chkId{position:relative;}
+    .chkId::before{content:""; display:block; float:left; width:18px; height:18px; background-color:#ddd; border:1px solid #aaa; border-radius:50%; margin:5px 0 0 50px; box-sizing:border-box;}
+    #saveId:checked + .chkId::before{background-color:#1f1815; border:1px solid #1f1815; box-sizing:border-box;}
+    #saveId:checked + .chkId::after{content:"";position:absolute; left:-25px; top:8px; width:10px; height:3px; border:1px solid white; border-top:none; border-right:none; border-left:none; transform:rotate(-45deg);}
+    label.chkId{margin-left:10px; font-size:20px;}
+    #submit_box{width:500px; height:60px; margin:20px auto; background-color:#bf955a; border-radius:7px; text-align:center; }
+    #submit_box .login{width:100%; border:0px; background-color:transparent; font-size:20px; line-height:60px; color:white; cursor:pointer;}
+    #navMenu{text-align:center;}
+    #navMenu .link{display:inline-block; padding:0 20px; border-left:1px solid black;}
+    #navMenu .link:first-child{margin-left:30px; border:0;}
+    #navMenu .link a{font-size:20px;}
+
+}
+
+@media screen and (min-width:860px) and (max-width:1200px){
+    /* ---------- Top(화면 맨 위로) ---------- */
+    #toTop{display:inline-block; width:50px; height:50px; border-radius:2px; position:fixed; right:-50px; top:85%; z-index:999; background-color:#404040; font-size:9px; font-weight:bold; color:white; text-align:center; line-height:8px; padding:28px 0 21px; box-sizing:border-box;}
+    #toTop:before { content:""; position:absolute; top: 14px; left:20px; width:5px; height:5px; border:3px solid white; border-left:0px; border-bottom:0px; transform: rotate(-45deg); } 
+    
+    /* ---------- section ---------- */
+    #memberLogin{padding-top:250px; height:500px;}
+    #login_form{width:600px; margin:0 auto;}
+    #login_form h2{margin-left:50px;}
+    .memberInput{width:500px; height:80px; border:1px solid #ddd; margin:20px auto; padding:10px 20px; box-sizing:border-box; border-radius:7px;}
+    .memberInput label{display:block; font-weight:bold;}
+    .memberInput input{width:460px; height:25px; margin-top:10px; border:none; font-size:16px; line-height:25px;}
+    #saveId{margin-left:50px; display:none;}
+    label.chkId{position:relative;}
+    .chkId::before{content:""; display:block; float:left; width:18px; height:18px; background-color:#ddd; border:1px solid #aaa; border-radius:50%; margin:5px 0 0 50px; box-sizing:border-box;}
+    #saveId:checked + .chkId::before{background-color:#1f1815; border:1px solid #1f1815; box-sizing:border-box;}
+    #saveId:checked + .chkId::after{content:"";position:absolute; left:-25px; top:8px; width:10px; height:3px; border:1px solid white; border-top:none; border-right:none; border-left:none; transform:rotate(-45deg);}
+    label.chkId{margin-left:10px; font-size:20px;}
+    #submit_box{width:500px; height:60px; margin:20px auto; background-color:#bf955a; border-radius:7px; text-align:center;}
+    #submit_box .login{width:100%; border:0px; background-color:transparent; font-size:20px; line-height:60px; color:white; cursor:pointer;}
+    #navMenu{text-align:center;}
+    #navMenu .link{display:inline-block; padding:0 20px; border-left:1px solid black;}
+    #navMenu .link:first-child{margin-left:30px; border:0;}
+    #navMenu .link a{font-size:20px;}
+
+}
+
+/* ---------- 모바일 ----------- */
+@media screen and (min-width:557px) and (max-width:859px){
+    /* ---------- section ---------- */
+    #toTop { display:none; }
+    #memberLogin{padding-top:50px; width:100%; height:420px;}
+    #login_form{width:80%; margin:0 auto;}
+    #login_form h2{margin-left:10%;}
+    .memberInput{width:80%; height:50px; border:1px solid #ddd; margin:20px auto; padding:10px 20px; box-sizing:border-box; border-radius:7px;}
+    .memberInput label{display:none;}
+    .memberInput input{width:80%; height:30px; border:none; font-size:16px; line-height:25px;}
+    #saveId{margin-left:50px; display:none;}
+    label.chkId{position:relative;}
+    .chkId::before{content:""; display:block; float:left; width:18px; height:18px; background-color:#ddd; border:1px solid #aaa; border-radius:50%; margin:5px 0 0 10%; box-sizing:border-box;}
+    #saveId:checked + .chkId::before{background-color:#1f1815; border:1px solid #1f1815; box-sizing:border-box;}
+    #saveId:checked + .chkId::after{content:"";position:absolute; left:-25px; top:8px; width:10px; height:3px; border:1px solid white; border-top:none; border-right:none; border-left:none; transform:rotate(-45deg);}
+    label.chkId{margin-left:10px; font-size:20px;}
+    #submit_box{width:80%; height:50px; margin:20px auto; background-color:#bf955a; border-radius:7px; text-align:center;}
+    #submit_box .login{width:100%; height:100%; border:0px; background-color:transparent; font-size:20px; line-height:50px; color:white; cursor:pointer;}
+    #navMenu{text-align:center;}
+    #navMenu .link{display:inline-block; padding:0 20px; border-left:1px solid black;}
+    #navMenu .link:first-child{margin-left:30px; border:0;}
+    #navMenu .link a{font-size:15px;}
+
+}
+
+@media screen and (max-width:556px){
+    /* ---------- section ---------- */
+    #memberLogin{padding-top:50px; width:100%; height:420px;}
+    #login_form{width:80%; margin:0 auto;}
+    #login_form h2{margin-left:10%;}
+    .memberInput{width:80%; height:50px; border:1px solid #ddd; margin:20px auto; padding:10px 20px; box-sizing:border-box; border-radius:7px;}
+    .memberInput label{display:none;}
+    .memberInput input{width:80%; height:30px; border:none; font-size:13px; line-height:25px;}
+    #saveId{margin-left:50px; display:none;}
+    label.chkId{position:relative;}
+    .chkId::before{content:""; display:block; float:left; width:18px; height:18px; background-color:#ddd; border:1px solid #aaa; border-radius:50%; margin:5px 0 0 10%; box-sizing:border-box;}
+    #saveId:checked + .chkId::before{background-color:#1f1815; border:1px solid #1f1815; box-sizing:border-box;}
+    #saveId:checked + .chkId::after{content:"";position:absolute; left:-25px; top:8px; width:10px; height:3px; border:1px solid white; border-top:none; border-right:none; border-left:none; transform:rotate(-45deg);}
+    label.chkId{margin-left:10px; font-size:16px;}
+    #submit_box{width:80%; height:50px; margin:20px auto; background-color:#bf955a; border-radius:7px; text-align:center;}
+    #submit_box .login{width:100%; border:0px; background-color:transparent; font-size:17px; line-height:50px; color:white; cursor:pointer;}
+    #navMenu{text-align:center;}
+    #navMenu .link{display:inline-block; padding:0 20px; border-left:1px solid black;}
+    #navMenu .link:first-child{margin-left:30px; border:0;}
+    #navMenu .link a{font-size:12px;}
+
+}

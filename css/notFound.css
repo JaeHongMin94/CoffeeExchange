@@ -1,0 +1,24 @@
+/* ------------- PC ------------ */
+@media screen and (min-width:801px){
+    #mobileMenu{display:none;}
+    header .fa-bars{display:none;}
+    /* ---------- Top(화면 맨 위로) ---------- */
+    #toTop{display:inline-block; width:50px; height:50px; border-radius:2px; position:fixed; right:-50px; top:85%; z-index:999; background-color:#404040; font-size:9px; font-weight:bold; color:white; text-align:center; line-height:8px; padding:28px 0 21px; box-sizing:border-box;}
+    #toTop:before { content:""; position:absolute; top: 14px; left:20px; width:5px; height:5px; border:3px solid white; border-left:0px; border-bottom:0px; transform: rotate(-45deg); } 
+
+    /* ---------- center ---------- */
+    div.errorInner{width:100%; height:auto; text-align:center; padding:300px 0 200px;}
+    .errorInner .head_text{font-size:30px; font-weight:bold;}
+    .errorInner .text{font-size:20px;}
+    .errorInner .btn{display:inline-block ;width:250px; height:50px; background-color:#bf955a; color:white; font-size:15px; line-height:50px; margin-top:20px;}
+}
+
+/* ------------- 모바일 ------------ */
+@media screen and (max-width:800px){
+    /* ---------- center ---------- */
+    #toTop{display:none;}
+    div.errorInner{width:100%; height:auto; text-align:center; padding:50px 0}
+    .errorInner .head_text{font-size:30px; font-weight:bold;}
+    .errorInner .text{font-size:20px;}
+    .errorInner .btn{display:inline-block ;width:250px; height:50px; background-color:#bf955a; color:white; font-size:15px; line-height:50px; margin-top:20px;}
+}

@@ -1,0 +1,159 @@
+/* ------------- PC ------------ */
+@media screen and (min-width:1300px){
+    /* ---------- Top(화면 맨 위로) ---------- */
+    #toTop{display:inline-block; width:50px; height:50px; border-radius:2px; position:fixed; right:-50px; top:85%; z-index:999; background-color:#404040; font-size:9px; font-weight:bold; color:white; text-align:center; line-height:8px; padding:28px 0 21px; box-sizing:border-box;}
+    #toTop:before { content:""; position:absolute; top: 14px; left:20px; width:5px; height:5px; border:3px solid white; border-left:0px; border-bottom:0px; transform: rotate(-45deg); } 
+
+    /* ---------- basketEmpty ---------- */
+    #basketPage{width:100%; height:auto; padding:300px 0 150px; background-color:#f5f5f5; }
+    #txtBasketEmpty{width:80%; height:auto; margin:0 auto; display:none;}
+    #txtBasketEmpty #words p{font-size:13px; margin-bottom:30px;}
+    #words div{width:178px; height:52px; border:2px solid black; border-radius:4px; }
+    #words div a{display:inline-block; width:100%; height:100%; text-align:center; line-height:52px; font-size:14px; font-weight:bold;}
+
+    /* ----- basket ----- */
+    #basketPage { width:100%; padding:300px 0 200px; background-color:#f5f5f5; }
+    #basket { width:80%; overflow:hidden; background-color:white; margin:0 auto;}
+    .productBasket tr:first-child::before { content: ''; display: table-cell; width:4%; background-color:#fafafa; }
+    .productBasket tr:first-child::after { content: ''; display: table-cell; width:4%; background-color:#fafafa; }
+    .productBasket tr:first-child th { padding:30px 12px 9px 12px; background-color:#fafafa; }
+    .productBasket tr:nth-child(2)::before { content: ''; display: table-cell; width:4%; }
+    .productBasket tr:nth-child(2)::after { content: ''; display: table-cell; width:4%; }
+    .productBasket tr:nth-child(2) td { padding:30px 12px 30px 12px; border-bottom:1px solid #ddd; }
+    .productBasket tr .productRemove { width:5%; }    
+    .productBasket tr .productThumbnail { width:6%; }
+    .productBasket tr:nth-child(2) .productThumbnail img { padding-left:0; padding-right:0; width:72px; height:72px; background:url("../../images/LU015667-72x72.jpg") no-repeat; }
+    .productBasket tr .productName { width:25%; font-weight:bold; }
+    .productBasket tr:nth-child(2) .productName a:hover{ color:#bf955a; }
+    .productBasket tr .productPrice { width:16%; text-align:right; }
+    .productBasket tr .productQuantity { width:22%; text-align:right; }
+    .productBasket tr .productQuantity input { width:100px; height:50px; text-align:center; border:1px solid #ddd; border-radius:5px; }
+    .productBasket tr .productSubtotal { width:18%; text-align:right; }
+    #listCancel { width:30px; height:30px; border-radius:50%; background-color:#ff9999; color:white; text-align:center; line-height:30px; }
+    .productBasket tr:nth-child(2) #listCancel:hover { background-color:black; cursor:pointer; }
+    .productBasket tr:last-child td { padding:25px 0; }
+    .productBasket tr:last-child::before { content: ''; display: table-cell; width: 50px; }
+    .productBasket tr:last-child::after { content: ''; display: table-cell; width: 50px; }
+    .coupon { display:inline-block; }
+    #couponCode { width:300px; height:52px; border:1px solid #ddd; border-radius:5px; padding:5px; box-sizing:border-box; }
+    #couponButton { width:152px; height:52px; border:2px solid #eee; border-radius:5px; margin-left:20px; background-color:white; color:#eee; font-weight:bold; }
+    #couponButton:hover { color:#999; border-color:#ccc; cursor:pointer; }
+    #renewalButton { float:right; width:150px; height:50px; background-color:transparent; border:2px solid black; color:black; border-radius:5px; cursor:pointer; }
+
+    /* ----- cartWrap ----- */
+    .cartWrap { width:80%; overflow:hidden; margin:0 auto; background-color:white; }
+    .cartTotals { width:50%; overflow:hidden; padding:70px 50px; float:right; box-sizing:border-box; background-color:#fafafa; }
+    .cartTotals h2 { font-size:24px; font-weight:700; font-family:inherit; margin-bottom:10px; }
+    .shopTable { width:100%; }
+    .shopTable tr th, .shopTable tr td { padding:10px; box-sizing:border-box; font-size:13px; }
+    .shopTable tr:last-child th, .shopTable tr:last-child td { color:black; font-size:16px; font-weight:bold;}
+    .shopTable tr th { width:30%; text-align:left; }
+    .shopTable tr td { width:70%; text-align:right; color:#535353; }
+    .shopTable tr:nth-child(2) th, .shopTable tr:nth-child(2) td { border-top:1px solid #ddd; border-bottom:1px solid #ddd; }
+    .proceedCheckout { width:100%; height:52px; background-color:#bf955a; margin:10px 0; }
+    .proceedCheckout .checkOutButton { display:block; text-align:center; line-height:52px; color:white; font-size:14px; font-weight:bold; }
+
+}
+
+@media screen and (min-width:860px) and (max-width:1299px){
+    /* ---------- Top(화면 맨 위로) ---------- */
+    #toTop{display:inline-block; width:50px; height:50px; border-radius:2px; position:fixed; right:-50px; top:85%; z-index:999; background-color:#404040; font-size:9px; font-weight:bold; color:white; text-align:center; line-height:8px; padding:28px 0 21px; box-sizing:border-box;}
+    #toTop:before { content:""; position:absolute; top: 14px; left:20px; width:5px; height:5px; border:3px solid white; border-left:0px; border-bottom:0px; transform: rotate(-45deg); } 
+
+    /* ---------- basketEmpty ---------- */
+    #basketPage{width:100%; height:auto; padding:300px 0 150px; background-color:#f5f5f5; }
+    #txtBasketEmpty{width:80%; height:auto; margin:0 auto; display:none;}
+    #txtBasketEmpty #words p{font-size:13px; margin-bottom:30px;}
+    #words div{width:178px; height:52px; border:2px solid black; border-radius:4px; }
+    #words div a{display:inline-block; width:100%; height:100%; text-align:center; line-height:52px; font-size:14px; font-weight:bold;}
+
+    /* ----- basket ----- */
+    #basket { width:80%; overflow:hidden; background-color:white; margin:0 auto;}
+    .productBasket tr:first-child::before { content: ''; display: table-cell; width:4%; background-color:#fafafa; }
+    .productBasket tr:first-child::after { content: ''; display: table-cell; width:4%; background-color:#fafafa; }
+    .productBasket tr:first-child th { padding:30px 12px 9px 12px; background-color:#fafafa; }
+    .productBasket tr:nth-child(2)::before { content: ''; display: table-cell; width:4%; }
+    .productBasket tr:nth-child(2)::after { content: ''; display: table-cell; width:4%; }
+    .productBasket tr:nth-child(2) td { padding:30px 12px 30px 12px; border-bottom:1px solid #ddd; }
+    .productBasket tr .productRemove { width:5%; }
+    .productBasket tr .productThumbnail { width:6%; }
+    .productBasket tr:nth-child(2) .productThumbnail img { padding-left:0; padding-right:0; width:72px; height:72px; background:url("../../images/LU015667-72x72.jpg") no-repeat; }
+    .productBasket tr .productName { width:25%; font-weight:bold; }
+    .productBasket tr .productPrice { width:16%; text-align:right; }
+    .productBasket tr .productQuantity { width:22%; text-align:right; }
+    .productBasket tr .productQuantity input { width:100px; height:50px; text-align:center; border:1px solid #ddd; border-radius:5px; }
+    .productBasket tr .productSubtotal { width:18%; text-align:right; }
+    #listCancel { width:30px; height:30px; border-radius:50%; background-color:#ff9999; color:white; text-align:center; line-height:30px; }
+    .productBasket tr:last-child td { padding:25px 0; }
+    .productBasket tr:last-child::before { content: ''; display: table-cell; width: 50px; }
+    .productBasket tr:last-child::after { content: ''; display: table-cell; width: 50px; }
+    .coupon { display:inline-block; }
+    #couponCode { width:300px; height:52px; border:1px solid #ddd; border-radius:5px; padding:5px; box-sizing:border-box; }
+    #couponButton { width:152px; height:52px; border:2px solid #eee; border-radius:5px; margin-left:20px; background-color:white; color:#eee; font-weight:bold; }
+    #couponButton:hover { color:#999; border-color:#ccc; cursor:pointer; }
+    #renewalButton { float:right; width:110px; height:35px; background-color:transparent; border-radius:2px solid black; color:black; border-radius:5px; }
+
+    /* ----- cartWrap ----- */
+    .cartWrap { width:80%; overflow:hidden; margin:0 auto; background-color:white; }
+    .cartTotals { width:50%; overflow:hidden; padding:70px 50px; float:right; box-sizing:border-box; background-color:#fafafa; }
+    .cartTotals h2 { font-size:24px; font-weight:700; font-family:inherit; margin-bottom:10px; }
+    .shopTable { width:100%; }
+    .shopTable tr th, .shopTable tr td { padding:10px; box-sizing:border-box; font-size:13px; }
+    .shopTable tr:last-child th, .shopTable tr:last-child td { color:black; font-size:16px; font-weight:bold;}
+    .shopTable tr th { width:30%; text-align:left; }
+    .shopTable tr td { width:70%; text-align:right; color:#535353; }
+    .shopTable tr:nth-child(2) th, .shopTable tr:nth-child(2) td { border-top:1px solid #ddd; border-bottom:1px solid #ddd; }
+    .proceedCheckout { width:100%; height:52px; background-color:#bf955a; margin:10px 0; }
+    .proceedCheckout .checkOutButton { display:block; text-align:center; line-height:52px; color:white; font-size:14px; font-weight:bold; }
+
+}
+
+/* ------------- 모바일 ------------ */
+@media screen and (max-width:859px){
+    /* ---------- basketEmpty ---------- */
+    #toTop { display:none; }
+    #basketPage{width:100%; height:auto; padding:50px 0 50px; background-color:#f5f5f5; }
+    #txtBasketEmpty{width:80%; height:auto; margin:0 auto; display:none;}
+    #txtBasketEmpty #words p{font-size:13px; margin-bottom:30px;}
+    #words div{width:178px; height:52px; border:2px solid black; border-radius:4px; }
+    #words div a{display:inline-block; width:100%; height:100%; text-align:center; line-height:52px; font-size:14px; font-weight:bold;}
+
+    /* ----- basket ----- */
+    #basket { width:90%; height:340; overflow:auto; background-color:white; margin:0 auto;}
+    .productBasket tr:first-child::before { content: ''; display: table-cell; width:4%; background-color:#fafafa; }
+    .productBasket tr:first-child::after { content: ''; display: table-cell; width:4%; background-color:#fafafa; }
+    .productBasket tr:first-child th { padding:30px 12px 9px 12px; background-color:#fafafa; }
+    .productBasket tr:nth-child(2)::before { content: ''; display: table-cell; width:4%; }
+    .productBasket tr:nth-child(2)::after { content: ''; display: table-cell; width:4%; }
+    .productBasket tr:nth-child(2) td { padding:30px 12px 30px 12px; border-bottom:1px solid #ddd; }
+    .productBasket tr .productRemove { width:5%; }
+    .productBasket tr .productThumbnail { width:6%; }
+    .productBasket tr:nth-child(2) .productThumbnail img { padding-left:0; padding-right:0; width:72px; height:72px; background:url("../../images/LU015667-72x72.jpg") no-repeat; }
+    .productBasket tr .productName { width:25%; }
+    .productBasket tr .productPrice { width:16%; text-align:right; }
+    .productBasket tr .productQuantity { width:22%; text-align:right; }
+    .productBasket tr .productQuantity input { width:100px; height:50px; text-align:center; border:1px solid #ddd; border-radius:5px; }
+    .productBasket tr .productSubtotal { width:18%; text-align:right; }
+    #listCancel { width:30px; height:30px; border-radius:50%; background-color:#ff9999; color:white; text-align:center; line-height:30px; }
+    .productBasket tr:last-child td { padding:25px 0; }
+    .productBasket tr:last-child::before { content: ''; display: table-cell; width: 50px; }
+    .productBasket tr:last-child::after { content: ''; display: table-cell; width: 50px; }
+    .coupon { width:100%; height:52px; }
+    #couponCode { width:40%; height:52px; border:1px solid #ddd; border-radius:5px; padding:5px; box-sizing:border-box; }
+    #couponButton { width:20%; height:52px; border:2px solid #ccc; border-radius:5px; background-color:white; color:#999; font-weight:bold; }
+    #renewalButton { width:100%; height:35px; background-color:transparent; border-radius:2px solid black; color:black; border-radius:5px; }
+
+    /* ----- cartWrap ----- */
+    .cartWrap { width:90%; overflow:hidden; margin:0 auto; background-color:white; }
+    .cartTotals { width:100%; overflow:hidden; padding:70px 50px; box-sizing:border-box; background-color:#fafafa; }
+    .cartTotals h2 { font-size:24px; font-weight:700; font-family:inherit; margin-bottom:10px; }
+    .shopTable { width:100%; }
+    .shopTable tr th, .shopTable tr td { padding:10px; box-sizing:border-box; font-size:10px; }
+    .shopTable tr:last-child th, .shopTable tr:last-child td { color:black; font-size:14px; font-weight:bold;}
+    .shopTable tr th { width:35%; text-align:left; }
+    .shopTable tr td { width:65%; text-align:right; color:#535353; }
+    .shopTable tr:nth-child(2) th, .shopTable tr:nth-child(2) td { border-top:1px solid #ddd; border-bottom:1px solid #ddd; }
+    .proceedCheckout { width:100%; height:52px; background-color:#bf955a; margin:10px 0; }
+    .proceedCheckout .checkOutButton { display:block; text-align:center; line-height:52px; color:white; font-size:12px; font-weight:bold; }
+
+}

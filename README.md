@@ -4,7 +4,7 @@
 
 전체적인 웹 페이지(이미지 클릭시 유튜브로 이동)
 
-[![Video Label](https://blog.kakaocdn.net/dn/Hth9t/btqMn43BulW/8kpgMIMUOIP8Gb7Hz59oK1/img.png)](https://youtu.be/kzXtRSfn1I0)
+[![Video Label](https://user-images.githubusercontent.com/74242937/117798536-35a36b80-b28c-11eb-9f49-0b22c61a57de.png)](https://youtu.be/kzXtRSfn1I0)
 
 반응형 웹페이지(일부분)(이미지 클릭시 유튜브로 이동)
 
